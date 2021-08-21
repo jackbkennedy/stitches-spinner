@@ -1,4 +1,4 @@
-import { styled, keyframes } from "../stitches.config";
+import { styled, keyframes } from "./stitches.config";
 
 const spinner = keyframes({
   to: {
@@ -14,9 +14,10 @@ export const Spinner = styled("div", {
   borderStyle: "solid",
   borderColor: "white",
   borderRadius: "$radii$round",
-  animation: `${spinner}  .6s linear infinite`,
+  animation: `${spinner}  0.6s linear infinite`,
+  animationDuration: '0.6s',
   variants: {
-    color: {
+    variant: {
       gray: {
         borderTopColor: "$gray8",
       },
