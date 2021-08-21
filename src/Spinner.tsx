@@ -15,9 +15,8 @@ export const Spinner = styled("div", {
   borderColor: "white",
   borderRadius: "$radii$round",
   animation: `${spinner}  0.6s linear infinite`,
-  animationDuration: '0.6s',
   variants: {
-    variant: {
+    color: {
       gray: {
         borderTopColor: "$gray8",
       },

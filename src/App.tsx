@@ -14,10 +14,10 @@ const StyledContainer = styled('div', {
 function App() {
   return (
     <StyledContainer>
-      <Spinner size={1} thickness={2} variant="red" />
-      <Spinner size={2} thickness={3} variant="blue" />
-      <Spinner size={3} thickness={4} variant="green" />
-      <Spinner size={4} thickness={2} variant="purple" />
+      <Spinner size={1} thickness={2} color="red" />
+      <Spinner size={2} thickness={3} color="blue" />
+      <Spinner size={3} thickness={4} color="green" />
+      <Spinner size={4} thickness={2} color="purple" />
     </StyledContainer>
   );
 }
